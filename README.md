@@ -2,7 +2,7 @@
 # api-union-streaming
 
 ## Objetivo 
-  prover a extensão todos os dados referentes aos serviços de streaming e e gerenciar a busca de titulos.
+  Prover a extensão todos os dados referentes aos serviços de streaming e gerenciar a busca de títulos.
 
 ## Tecnologias usadas
   ### Back-End
