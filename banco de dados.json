@@ -1,0 +1,27 @@
+{
+  "services": [
+        {
+            "name": "netflix",
+            "url_image": "https://firebasestorage.googleapis.com/v0/b/union-streaming.appspot.com/o/Netflix.png?alt=media&token=9b1cac47-3727-4a45-b1ba-badbef45a926",
+            "link": "https://www.netflix.com/browse"
+        },
+
+        {
+            "name": "Amazon Prime Video",
+            "url_image":"https://firebasestorage.googleapis.com/v0/b/union-streaming.appspot.com/o/Amazon%20prime%20video.png?alt=media&token=960d5640-dd31-41b6-bec0-5544a88b3b5c",
+            "link": "https://www.primevideo.com/"
+        },
+
+        {
+            "name": "HBO GO",
+            "url_image":"https://firebasestorage.googleapis.com/v0/b/union-streaming.appspot.com/o/HBO%20GO.png?alt=media&token=281d23fe-e6a7-4881-9a24-5e0acb78feb6",
+            "link": "https://www.hbogo.com.br/"
+        },
+
+        {
+            "name": "Disney +",
+            "url_image": "https://firebasestorage.googleapis.com/v0/b/union-streaming.appspot.com/o/Disney%20%2B.png?alt=media&token=73c174f9-e19f-413f-83c5-a51a1cf66c25",
+            "link": "https://www.primevideo.com/"
+        }
+    ]
+}
