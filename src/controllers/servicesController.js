@@ -8,7 +8,6 @@ module.exports = {
         .then( async snapshot =>{
             return snapshot.val();
         })
-
-        response.json(services)
+        response.json(services);
     }
 }

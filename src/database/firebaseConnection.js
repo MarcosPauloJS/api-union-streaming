@@ -1,14 +1,7 @@
-const firebaseConnection = require('../database/firebaseConnection');
+const firebase = require('firebase');
 
-module.exports = {
-    async index(request, response){
-        console.log('here')
-        const services = await firebaseConnection.database().ref('/services/')
-        .once('value')
-        .then( async snapshot =>{
-            return snapshot.val();
-        })
+const config = require('./firebaseConfig')
 
-        response.json(services)
-    }
-} 
+firebase.initializeApp(config);
+
+module.exports = firebase;
